@@ -27,7 +27,7 @@ RUN mkdir -p \
     && "/baselayout/sbin/gosu" nobody true
 
 
-FROM php:8.0-fpm-alpine
+FROM php:8.5.3RC1-fpm-alpine
 
 LABEL maintainer=info@webdevops.io \
       vendor=WebDevOps.io \
